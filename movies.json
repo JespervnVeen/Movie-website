@@ -110,5 +110,12 @@
         "director": "Todd Phillips",
         "year": "2019",
         "rating": "8.4"
+    },
+    {
+        "image": "img/spiderverse1",
+        "name": "Spider-Man: Into the Spider-Verse",
+        "director": "Bob Persichetti",
+        "year": "2018",
+        "rating": "8.4"
     }
 ]

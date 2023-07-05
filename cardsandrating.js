@@ -17,19 +17,12 @@ class Movie {
         const sectionMovie = document.getElementById("cards");
         const templateMovie = document.getElementById("template");
         const cloneMovie = templateMovie.content.cloneNode(true);
-        const templateButtons = cloneMovie.querySelectorAll(".templatebutton");
 
         cloneMovie.querySelector(".templateimage").src = this.image;
         cloneMovie.querySelector(".templatename").innerHTML = this.name;
         cloneMovie.querySelector(".templatedirector").innerHTML = this.director;
         cloneMovie.querySelector(".templateyear").innerHTML = this.year;
         cloneMovie.querySelector(".templaterating").innerHTML = this.rating;
-
-        templateButtons.forEach(button => {
-            button.addEventListener("click", () => {
-                    
-            });
-        });
 
         sectionMovie.appendChild(cloneMovie);
     }
@@ -51,7 +44,7 @@ function parse(data) {
     }
 
     for (const movie of data) {
-        let mov = new Movie(movie.image, movie.name, movie.year, movie.director, movie.rating);
+        let mov = new Movie(movie.image, movie.name, movie.year, movie.director, movie.rating, movie.videoId);
         mov.html();
     }
 }

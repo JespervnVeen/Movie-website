@@ -82,6 +82,11 @@ header{
     gap: 20px;
 }
 
+.templatefav{
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+}
 
 .templateimage {
     width: 250px;

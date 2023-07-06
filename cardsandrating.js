@@ -5,18 +5,20 @@ function setup() {
 }
 
 class Movie {
-    constructor(image, name, year, director, rating) {
+    constructor(image, name, year, director, rating, background) {
         this.image = image;
         this.name = name;
         this.director = director;
         this.year = year;
         this.rating = rating;
+        this.background = background;
     }
 
     html() {
         const sectionMovie = document.getElementById("cards");
         const templateMovie = document.getElementById("template");
         const cloneMovie = templateMovie.content.cloneNode(true);
+        const bodyBackground = document.getElementById("body");
 
         cloneMovie.querySelector(".templateimage").src = this.image;
         cloneMovie.querySelector(".templatename").innerHTML = this.name;
@@ -24,6 +26,11 @@ class Movie {
         cloneMovie.querySelector(".templateyear").innerHTML = this.year;
         cloneMovie.querySelector(".templaterating").innerHTML = this.rating;
 
+        cloneMovie.querySelector(".templateimage").addEventListener("click", () => {
+            bodyBackground.style.backgroundImage = `url(${this.background})`;
+            bodyBackground.style.transition = "background-image 0.2s ease-in";
+        });
+        
         sectionMovie.appendChild(cloneMovie);
     }
 }
@@ -44,7 +51,7 @@ function parse(data) {
     }
 
     for (const movie of data) {
-        let mov = new Movie(movie.image, movie.name, movie.year, movie.director, movie.rating, movie.videoId);
+        let mov = new Movie(movie.image, movie.name, movie.year, movie.director, movie.rating, movie.background);
         mov.html();
     }
 }

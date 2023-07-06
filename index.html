@@ -7,8 +7,9 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" href="img/eqwewq.png">
     <script src="cardsandrating.js" defer></script>
+    <script src="darklight.js" defer></script>
 </head>
-<body>
+<body id="body">
     <header>
         <section id="nav">
             <section class="logo">
@@ -27,12 +28,16 @@
         <section id="menu">
             <section id="sortby">
                 <h1>Sort</h1>
-                <select name="sort" id="sort">
-                    <option value="name">Name</option>
-                    <option value="mostrecent">Most recent</option>
-                    <option value="oldest">Oldest</option>
-                    <option value="rating">Rating</option>
-                </select>
+                <section id="sortbycontent">
+                    <select name="sort" id="sort">
+                        <option value="name">Name</option>
+                        <option value="mostrecent">Most recent</option>
+                        <option value="oldest">Oldest</option>
+                        <option value="rating">Rating</option>
+                    </select>
+                    <button id="darkmode">Dark mode</button>
+                    <button id="lightmode">Light mode</button>
+                </section>    
             </section>
         </section>
         <section id="cards">

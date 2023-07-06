@@ -4,118 +4,135 @@
         "name": "Django Unchained",
         "director": "Quentin Tarantino",
         "year": "2012",
-        "rating": "8.4"
+        "rating": "8.4",
+        "background": "background/djangobg.jpg"
     },
     {
         "image": "img/goodwill.jpg",
         "name": "Good Will Hunting",
         "director": "Gus Van Sant",
         "year": "1997",
-        "rating": "8.3"
+        "rating": "8.3",
+        "background": "background/goodwillbg.jpg"
     },
     {
         "image": "img/shaw.jpg",
         "name": "The Shawshank Redemption",
         "director": "Frank Darabont",
         "year": "1994",
-        "rating": "9.3"
+        "rating": "9.3",
+        "background": "background/shawbg.jpg"
     },
     {
         "image": "img/back1.jpg",
         "name": "Back to the Future: Part I",
         "director": "Robert Zemeckis",
         "year": "1985",
-        "rating": "8.5"
+        "rating": "8.5",
+        "background": "background/back1bg.jpg"
     },
     {
         "image": "img/back2.jpg",
         "name": "Back to the Future: Part II",
         "director": "Robert Zemeckis",
         "year": "1989",
-        "rating": "7.8"
+        "rating": "7.8",
+        "background": "background/back2bg.jpg"
     },
     {
         "image": "img/back3.jpg",
         "name": "Back to the Future: Part III",
         "director": "Robert Zemeckis",
         "year": "1990",
-        "rating": "7.4"
+        "rating": "7.4",
+        "background": "background/back3bg.jpg"
     },
     {
         "image": "img/blade1.jpg",
         "name": "Blade Runner",
         "director": "Ridley Scott",
         "year": "1982",
-        "rating": "8.1"
+        "rating": "8.1",
+        "background": "background/blade1bg.jpg"
     },
     {
         "image": "img/blade2.jpg",
         "name": "Blade Runner 2049",
         "director": "Denis Villeneuve",
         "year": "2017",
-        "rating": "8.0"
+        "rating": "8.0",
+        "background": "background/blade2bg.jpg"
     },
     {
         "image": "img/pris.jpg",
         "name": "Prisoners",
         "director": "Denis Villeneuve",
         "year": "2013",
-        "rating": "8.1"
+        "rating": "8.1",
+        "background": "background/prisonersbg.jpeg"
     },
     {
         "image": "img/bat.jpg",
         "name": "The Batman",
         "director": "Matt Reeves",
         "year": "2022",
-        "rating": "7.8"
+        "rating": "7.8",
+        "background": "background/batbg.jpg"
     },
     {
         "image": "img/inter.jpg",
         "name": "Interstellar",
         "director": "Christopher Nolan",
         "year": "2014",
-        "rating": "8.6"
+        "rating": "8.6",
+        "background": "background/interbg.jpg"
     },
     {
         "image": "img/tenet.jpg",
         "name": "Tenet",
         "director": "Christopher Nolan",
         "year": "2020",
-        "rating": "7.5"
+        "rating": "7.5",
+        "background": "background/tenetbg.jpg"
     },
     {
         "image": "img/fight.jpg",
         "name": "Fight Club",
         "director": "David Fincher",
         "year": "1999",
-        "rating": "8.8"
+        "rating": "8.8",
+        "background": "background/fightbg.jpg"
     },
     {
         "image": "img/walle.jpg",
         "name": "WALL-E",
         "director": "Andrew Stanton",
         "year": "2008",
-        "rating": "8.4"
+        "rating": "8.4",
+        "background": "background/wallebg.jpg"
     },
     {
         "image": "img/dark.jpg",
         "name": "The Dark Knight",
         "director": "Christopher Nolan",
         "year": "2008",
-        "rating": "9.0"
+        "rating": "9.0",
+        "background": "background/darkknightbg.jpg"
     },
     {
         "image": "img/joker.jpg",
         "name": "Joker",
         "director": "Todd Phillips",
         "year": "2019",
-        "rating": "8.4"
+        "rating": "8.4",
+        "background": "background/jokerbg.jpg"
     },
     {
         "image": "img/spiderverse1.jpg",
         "name": "Spider-Man: Into the Spider-Verse",
         "director": "Bob Persichetti",
         "year": "2018",
-        "rating": "8.4"
+        "rating": "8.4",
+        "background": "background/intobg.jpg"
     }
 ]

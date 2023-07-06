@@ -3,8 +3,8 @@ body {
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
     background-image: linear-gradient(to top, #051937, #002667, #0b2e97, #462dc4, #8312eb);    
-    background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 header{
@@ -59,6 +59,40 @@ header{
     width: 900px;
 }
 
+#sort{
+    background-color: white;
+    border: 1px solid black;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+}
+
+#darkmode{
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+}
+
+#darkmode:hover{
+    background-color: rgb(39, 39, 39);
+}
+
+#lightmode:hover{
+    background-color: rgb(211, 211, 211);
+}
+
+#lightmode{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+}
+
 #cards {
     margin-top: 100px;
     margin-left: 100px;
@@ -80,6 +114,7 @@ header{
     width: 400px;
     height: 800px;
     gap: 20px;
+    border-radius: 20px;
 }
 
 .templatefav{
